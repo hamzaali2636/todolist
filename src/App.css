@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+}
+
+.container{
+
+
+
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(0, 170, 255);
+  text-align: center;
+  color: aliceblue;
+
+}
+
+
+
+.dataInput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container input{
+  width: 70%;
+  padding: 9px;
+  border: none;
+  font-size: 22px;
+  border-radius: 2px;
+}
+.Tasks{
+  
+ 
+  background-color: rgb(0, 128, 219);
+  border-radius: 10px;
+
+  
+}
+.taskbtn{
+  position: relative;
+  margin-right: 10px;
+ 
+  
+}
+.task-Container{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.task-Container p{
+  margin-left: 10px;
+}
